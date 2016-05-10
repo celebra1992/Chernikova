@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title> Ы </title>
+<link href="style.css" rel="stylesheet">
+<meta charset=windows-1251>
+</head>
+<body>
+<form action="mailto:aectann@gmail.com" enctype="text/plain" method="POST"> 
+<table border="4" cellspacing="2" cellpadding="10" align="center">
+<caption> <strong>Заголовок таблицы</strong></caption>
+
+<th><i>Как зовут писателя?</i>
+<th colspan="3" align="center"><i><input type=text required name=r1_1 placeholder="Фамилия"></i>
+<input type=text required name=r1_1 placeholder="Имя">
+<input type=text required name=r1_1 placeholder="Отчество">
+
+  <tr><th><i>Сколько лет прожил писатель?</i>
+<th colspan="3" align="left">  <select name="List" size="1"> 
+<option value="1">28 </option> 
+<option value="2">38 </option> 
+<option value="3">48 </option>
+<option value="3">58 </option> 
+<option value="3">68 </option> 
+<option value="3">78 </option> 
+<option value="3">88</option> 
+<option value="3">98</option> 
+<option value="3">108 </option> 
+<option value="3">56 </option> 
+</select> 
+<tr><th><i>В каком году был написан роман Мастер и Маргарита?</i>
+<th colspan="3" align="center">  
+<p>
+<input type="checkbox" name="f001"> 1940
+<input type="checkbox" name ="f001"> 1941
+<input type="checkbox" name ="f001"> 1942
+</p>
+<tr><th>В честь кого персонаж Воланд<font color="white"> получил своё имя?</font>
+<th colspan="3" align="left">  
+<input type=text required name=r1_1 placeholder="Введите ответ">
+<tr><th>Кем писатель служил на Северном Кавказе?
+<th colspan="3" align="left">  
+<input type="radio" name="s001" value="First"><font color="white">Офицер</font>
+<input type="radio" name="s001" value="Second"><font color="white">Врач</font>
+<input type="radio" name="s001" value="Third"><font color="white">Разведчик</font>
+<tr><th>Как выглядит писатель?
+<th colspan="3" align="left"> 
+<p>
+<input type=text required name=r1_1 placeholder="Выберите изображение">
+<input type="file" name="photo" accept="image/*"> 
+</p>
+<tr><th>Какие произведения написал этот писатель?
+<th colspan="3" align="left"> 
+<p>
+<select name="ITEM[]" size="6" multiple> 
+
+<option value="item 1">Дьяволиада </option> 
+<option value="item 2">Мастер и Маргарита </option> 
+<option value="item 3">Собачье сердце </option> 
+<option value="item 4">Дурак</option>
+
+</select> 
+</p>
+<tr> 
+<td><center><b>Дополнительная информация:</b>
+<td><textarea rows="6" cols="40"> 
+
+</textarea> 
+</center>
+<tr> 
+<td align="bottom" colspan="2"> 
+<input align="bottom" type="submit" value="Отправить"> 
+<input type="reset" value="Сбросить">
+<input type="image" src="3.jpg" width="100" onClick='location.href="lab4.html"'>
+</table>
+
+</form>
+<footer>
+	<marquee loop="1" scrollamount="15" direction="left" bgcolor="transparent">
+<font color="green"> Работа выполнена студентом: Васильчук Александр </font>
+	</marquee>
+	</footer>
+
+</body>
+</html>
